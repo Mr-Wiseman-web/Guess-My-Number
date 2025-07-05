@@ -33,7 +33,7 @@ function check() {
     if (currentNumber === guessNumber) {
       document.querySelector(".number").textContent = guessNumber;
       document.querySelector("body").style.backgroundColor = "green";
-      document.querySelector("h1").textContent = "You're won👑";
+      document.querySelector("h1").textContent = "You won👑";
       document.querySelector(".message").textContent = "Let's play again!";
 
       if (currentScore > highScore) {
